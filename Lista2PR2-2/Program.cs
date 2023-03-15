@@ -128,10 +128,44 @@ namespace Lista2PR2_2
             //    Console.ReadKey();
             //}
 
-            //atividade 6
-            float a1, a2, a3;
+            ////atividade 6
+            //int a1, a2, a3;
 
-            Console.WriteLine();
+            //Console.WriteLine("Digite o valor do primeiro ângulo");
+            //a1=int.Parse(Console.ReadLine());            
+            //Console.WriteLine("Digite o valor do segundo ângulo");
+            //a2=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Digite o valor do terceiro ângulo");
+            //a3=int.Parse(Console.ReadLine());
+
+            //if (a1 == 90 || a2 == 90 || a3 == 90) 
+            //{
+            //    Console.WriteLine("O seu triângulo é Acutângulo");
+            //    Console.ReadKey();
+            //}
+            //else if(a1 <90 && a2 < 90 && a3 < 90)
+            //{
+            //    Console.WriteLine("O seu Triângulo é Obtusângulo");
+            //    Console.ReadKey();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("O seu Triângulo é Acutângulo ");
+            //    Console.ReadKey();
+            //}
+
+            //atividade 7
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
