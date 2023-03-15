@@ -156,7 +156,17 @@ namespace Lista2PR2_2
 
             //atividade 7
 
+            ////atividade 8
+            //int ano;
 
+            //Console.WriteLine("Digite um ano: ");
+            //ano = int.Parse(Console.ReadLine());
+
+            //if(ano % 4 == 0)
+            //{
+            //    Console.WriteLine("Seu ano é um ano bissexto");
+            //    Console.ReadKey();
+            //}
 
 
 
