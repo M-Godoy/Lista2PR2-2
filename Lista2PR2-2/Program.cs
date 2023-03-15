@@ -168,10 +168,16 @@ namespace Lista2PR2_2
             //    Console.ReadKey();
             //}
 
+            //atividade 9 
+            float n1, n2;
+            char op;
 
-
-
-
+            Console.WriteLine("Digite o primeiro valor: ");
+            n1=float.Parse(Console.ReadLine()); 
+            Console.WriteLine("Digite o segundo valor: ");
+            n2=float.Parse(Console.ReadLine());
+            Console.WriteLine("Digite qual das operações deve ser feitos com os valores p, escolha entre +, -,* ou /: ");
+            op = char.Parse(Console.ReadLine());
 
 
 
