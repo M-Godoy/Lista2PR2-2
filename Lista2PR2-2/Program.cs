@@ -155,7 +155,61 @@ namespace Lista2PR2_2
             //    Console.ReadKey();
             //}
 
-            //atividade 7
+            ////atividade 7
+            //int n1, n2, n3;
+
+            //Console.WriteLine("Digite o primeiro valor: ");
+            //n1=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Digite o segundo valor: ");
+            //n2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Digite o terceiro valor: ");
+            //n3 = int.Parse(Console.ReadLine());
+
+            //if(n1==n2 && n1 == n3)
+            //{
+            //    Console.WriteLine("Valores repetidos não são válidos.");
+            //}
+            //else
+            //{
+            //    if (n1 < n2 && n2 < n3)
+            //    {
+            //        Console.WriteLine(n1 + " " + n2 + " " + n3 + " ");
+            //        Console.ReadKey();
+            //    }
+            //    else if (n1 < n2 && n2 > n3)
+            //    {
+            //        Console.WriteLine(n1 + " " + n3 + " " + n2);
+            //        Console.ReadKey();
+            //    }
+            //    else if (n1 > n2 && n2 < n3) 
+            //    {
+            //        if (n1 < n3)
+            //        {
+            //            Console.WriteLine(n2 + " " + n1 + " " + n3);
+            //            Console.ReadKey();
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine(n2 + " " + n3 + " " + n1);
+            //            Console.ReadKey();
+            //        }
+            //    }else
+            //    {
+            //        if (n1 > n2 && n2 > n3) 
+            //        {
+            //            Console.WriteLine(n3 + " " + n2 + " " + n1);
+            //            Console.ReadKey();
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine(n3 + " " + n1 + " " + n2);
+            //            Console.ReadKey();
+            //        }
+            //    }
+            //}
+
+
+
 
             ////atividade 8
             //int ano;
@@ -211,7 +265,7 @@ namespace Lista2PR2_2
             //}
 
             //atividade 10
-        
+
             //Console.WriteLine("Números aleatórios podem ser geredos apartir da classe por nome 'randon', pertencente ao namespace System, nos permite gerar números aleatórios em C# por meio de seus métodos, incluindo números inteiros e de ponto flutuante. " +
             //    "Números aleatórios são empregados em diversas aplicações, tais como criptografia, simulações estatísticas e jogos de computador." +
             //    "Primeiramente, instanciamos a classe:" +
