@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -166,24 +167,65 @@ namespace Lista2PR2_2
             //{
             //    Console.WriteLine("Seu ano é um ano bissexto");
             //    Console.ReadKey();
+            ////}
+
+            ////atividade 9 
+            //float n1, n2, result;
+            //char op;
+
+            //Console.WriteLine("Digite o primeiro valor: ");
+            //n1=float.Parse(Console.ReadLine()); 
+            //Console.WriteLine("Digite o segundo valor: ");
+            //n2=float.Parse(Console.ReadLine());
+            //Console.WriteLine("Digite qual das operações deve ser feitos com os valores, escolha entre +, -,* ou /: ");
+            //op = char.Parse(Console.ReadLine());
+
+            //if (op == '+') 
+            //{
+            //    result = n1 + n2;
+            //    Console.WriteLine("O reu resultado será igual a: " + result);
+            //    Console.ReadKey();
+            //}
+            //else if(op == '-')
+            //{
+            //    result = n1 - n2;
+            //    Console.WriteLine("O reu resultado será igual a: " + result);
+            //    Console.ReadKey();
+            //}
+            //else if (op == '*')
+            //{
+            //    result= n1 * n2;
+            //    Console.WriteLine("O reu resultado será igual a: " + result);
+            //    Console.ReadKey();
+            //}
+            //else if (op =='/')
+            //{
+            //    result= n1 / n2;
+            //    Console.WriteLine("O reu resultado será igual a: " + result);
+            //    Console.ReadKey();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Erro, digite um dos elementos acima");
+            //    Console.ReadKey();
             //}
 
-            //atividade 9 
-            float n1, n2;
-            char op;
+            //atividade 10
+        
+            //Console.WriteLine("Números aleatórios podem ser geredos apartir da classe por nome 'randon', pertencente ao namespace System, nos permite gerar números aleatórios em C# por meio de seus métodos, incluindo números inteiros e de ponto flutuante. " +
+            //    "Números aleatórios são empregados em diversas aplicações, tais como criptografia, simulações estatísticas e jogos de computador." +
+            //    "Primeiramente, instanciamos a classe:" +
+            //    "'\r\n\r\nRandom numAleatorio = new Random();\r\n'" +
+            //    "E então invocamos um de seus métodos geradores de números aleatórios, atribuindo o retorno do método a uma variável de tipo compatível." +
+            //    "Para gerar um número aleatório inteiro, usamos o método Next(), que permite gerar um valor inteiro (int) positivo entre zero e Int32.MaxValue (2.147.483.647)." +
+            //    "'\r\n\r\nint valorInteiro = numAleatorio.Next();\r\n'" +
+            //    "Podemos também configurar o intervalo de números gerados adicionando dois argumentos ao método Next(): número inicial e número final + 1. Por exemplo, para gerar apenas números aleatórios entre 1 e 20, escrevemos:" +
+            //    "'\r\n\r\nint valorInteiro = numAleatorio.Next(1,21)';");
 
-            Console.WriteLine("Digite o primeiro valor: ");
-            n1=float.Parse(Console.ReadLine()); 
-            Console.WriteLine("Digite o segundo valor: ");
-            n2=float.Parse(Console.ReadLine());
-            Console.WriteLine("Digite qual das operações deve ser feitos com os valores p, escolha entre +, -,* ou /: ");
-            op = char.Parse(Console.ReadLine());
-
-
-
-
-
-
+            //Random numAleatorio = new Random();
+            //int valorInteiro = numAleatorio.Next();
+            //Console.WriteLine(valorInteiro);
+            //Console.ReadKey();
         }
     }
 }
